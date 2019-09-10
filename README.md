@@ -2,9 +2,8 @@
 jd联盟api go  sdk
 
 
-/*
-	测试调用sdk 完成请求
-*/
+
+# 测试调用sdk 完成请求
 / ``` go
 func TestJdSdk(t *testing.T) {
 	sdk := NewJdSdk("appKey","secretKey","accessToken","version")
